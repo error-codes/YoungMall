@@ -15,6 +15,7 @@ public interface CacheTtlAdapter {
 
     /**
      * 根据缓存的 cacheName 和 Ttl 将缓存进行过期
+     *
      * @return 需要独立设置
      */
     List<CacheNameWithTtlBO> listCacheNameWithTtl();
