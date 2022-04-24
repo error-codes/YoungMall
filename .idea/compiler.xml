@@ -7,19 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="YM-MultiShop" />
-        <module name="YM-Common" />
         <module name="YM-Auth" />
         <module name="YM-Payment" />
         <module name="YM-Biz" />
+        <module name="YM-Common-Security" />
         <module name="YM-Gateway" />
         <module name="YM-Product" />
+        <module name="YM-Common-RocketMQ" />
         <module name="YM-Api" />
+        <module name="YM-Common-DB" />
         <module name="YM-Order" />
         <module name="YM-Platform" />
+        <module name="YM-Common-Cache" />
         <module name="YM-User" />
         <module name="YM-Leaf" />
         <module name="YM-RBAC" />
+        <module name="YM-Common-Order" />
         <module name="YM-Search" />
+        <module name="YM-Common-Core" />
       </profile>
     </annotationProcessing>
   </component>

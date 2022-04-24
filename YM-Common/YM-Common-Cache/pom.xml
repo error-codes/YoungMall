@@ -3,23 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>YoungMall</artifactId>
+        <artifactId>YM-Common</artifactId>
         <groupId>shop.young</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>YM-Common</artifactId>
-    <packaging>pom</packaging>
-    <description>公共模块</description>
-    <modules>
-        <module>YM-Common-Cache</module>
-        <module>YM-Common-Core</module>
-        <module>YM-Common-DB</module>
-        <module>YM-Common-Order</module>
-        <module>YM-Common-RocketMQ</module>
-        <module>YM-Common-Security</module>
-    </modules>
+    <artifactId>YM-Common-Cache</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -29,7 +19,12 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-integration</artifactId>
         </dependency>
     </dependencies>
 </project>

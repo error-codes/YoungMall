@@ -3,24 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>YoungMall</artifactId>
+        <artifactId>YM-Common</artifactId>
         <groupId>shop.young</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>YM-Auth</artifactId>
-    <description>授权校验模块</description>
+    <artifactId>YM-Common-DB</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.github.anji-plus</groupId>
-            <artifactId>captcha</artifactId>
-        </dependency>
-    </dependencies>
 </project>
